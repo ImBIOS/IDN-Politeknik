@@ -6,7 +6,7 @@ import ngoding from '../asset/Icons/ngoding.png';
 const ClassMeeting = () => {
     return (
         <div className="container mx-auto text-slate-800 mt-20">
-            <h1 className='text-center font-bold text-4xl'>Class Meeting</h1>
+            <h1 className='text-center font-bold text-4xl'>className Meeting</h1>
             <div className="border-2 w-16 mx-auto rounded my-2"></div>
 
             <div className="py-10 flex justify-center items-center">

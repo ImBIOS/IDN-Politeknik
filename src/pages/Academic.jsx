@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../pages/Navbar'
-import Footer from '../pages/Footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Organization from '../components/Organization'
 
 const AcademicPage = () => {
