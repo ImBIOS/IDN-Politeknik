@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card';
+import CardNews from './CardNews';
 
 
 const News = () => {
@@ -10,7 +10,10 @@ const News = () => {
 				<h1 className="text-center text-4xl font-montserrat font-bold">NEWS</h1>
 			</div>
 
-			<Card/>
+			<div className='container mx-auto flex items-center justify-center'>
+				<CardNews />
+			</div>
+
 		</div>
 	);
 }				

@@ -1,6 +1,7 @@
 import About from './About'
 import Academic from './Academic'
-import Contact from './ContactUs'
 import Event from './Event'
+import Contact from './ContactUs'
+import PMB from './ContactUs'
 
-export { About, Academic, Contact, Event }
+export { About, Academic, Event, Contact, PMB}

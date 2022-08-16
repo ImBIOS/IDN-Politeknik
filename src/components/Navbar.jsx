@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../asset/Icons/logo.png'
 import menu from '../asset/Icons/menu.png'
 import { NavLink } from "react-router-dom";
@@ -8,9 +8,21 @@ const navs = [
 ]
 
 const Navbar = () => {
+
+  const [navbar, setNavbar] = useState(false)
+
+  const changeBackground = () => {
+    if (window.scrollY > 80) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+  };
+
+  window.addEventListener('scroll', changeBackground)
+
     return (
-        <div className="sticky top-0 z-50 backdrop-blur-sm">
-            <div className="navbar w-full container mx-auto">
+            <div className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="flex-1 pl-3">
                     <img src={logo} alt="logo" className="w-28 sm:w-40"/>
                 </div>
@@ -45,7 +57,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </div>
       )
   }
 
