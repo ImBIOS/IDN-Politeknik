@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .navbar {
- @apply sticky top-0 z-50 backdrop-blur-sm container mx-auto
+ @apply sticky top-0 z-50 backdrop-blur-sm container mx-auto 
 }
 
 .navbar.active {

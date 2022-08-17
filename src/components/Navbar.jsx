@@ -22,8 +22,8 @@ const Navbar = () => {
   window.addEventListener('scroll', changeBackground)
 
     return (
-            <div className={navbar ? 'navbar active' : 'navbar'}>
-                <div className="flex-1 pl-3">
+            <div className={navbar ? 'navbar active lg:px-24' : 'navbar '}>
+                <div className="flex-1 pl-3 ">
                     <img src={logo} alt="logo" className="w-28 sm:w-40"/>
                 </div>
                 <div className="dropdown md:hidden scale-75">

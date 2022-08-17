@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../asset/Icons/logo.png"
+import logoWhite from "../asset/Icons/logoWhite.png"
 
 const Footer = () => {
 	return (
         <div className="mt-20 bg-neutral">
-            <footer className="footer container mx-auto items-center p-4 text-neutral-content">
+            <footer className="footer items-center p-4 text-neutral-content container mx-auto lg:px-28">
                 <div className="items-center sm:grid-flow-col hidden sm:contents">
-                    <img src={logo} alt="" className="w-28"/>
+                    <img src={logoWhite} alt="" className="h-10"/>
                     <p>Copyright © 2022 - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end flex justify-center">
@@ -16,7 +16,7 @@ const Footer = () => {
                     <a className="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
                 </div>
                 <div className="items-center sm:grid-flow-col sm:hidden">
-                    <img src={logo} alt="" className="w-28"/>
+                    <img src={logoWhite} alt="" className="h-10"/>
                     <p>Copyright © 2022 - All right reserved</p>
                 </div>
             </footer>
