@@ -16,23 +16,9 @@ const Profile = () => {
                 </div>
             </div>
 
-            <div className='text-center my-20 tracking-widest text-lg lg:text-2xl'>
-                <p >
-                    Ini adalah website resmi dari politeknik IDN yang telah kami bikin.
-                    Kamu tau gak ? kami bikinnya bertiga lho awokawoawkawokw.
-                </p>
-
-                <p>Kamu pengen kayak kami gak ? yaudah join ke RPL. Di TKJ malah jadi
-                    pengguli jaringan handal apalagi di DMM malah menjadi yuai/yuex
-                    designer. Pdahal gaji yang terbesar itu ada di RPL awkawokaow
-                    Meskipun dapat bikin kepala botak awkawoakwokawok</p>
-
-                <p>dan ingat joks dari RPL “Mama aku di render”. awokawok</p>
-            </div>
-
-            <div className="px-20 flex justify-center items-center flex-col">
-                <h1 className="text-center text-2xl lg:text-4xl font-semibold tracking-wides text-slate-800">Director of education IDN</h1>
-                <div className="border-2 w-28 rounded my-2 bg-slate-900"></div>
+            <div className="px-20 flex justify-center lg:my-20 items-center flex-col">
+                <h1 className="text-center font-semibold tracking-wides text-slate-800 lg:text-4xl sm:text-3xl text-xl">Director of education IDN</h1>
+                <div className="border-2 w-28 rounded my-2 bg-slate-800"></div>
 
                 <div className="flex flex-wrap items-center justify-center mt-10 lg:mt-0">
                     <div className="avatar">
