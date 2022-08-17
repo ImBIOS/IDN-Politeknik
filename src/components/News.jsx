@@ -1,7 +1,6 @@
 import React from 'react'
 import CardNews from './CardNews';
 
-
 const News = () => {
 	return (
 
@@ -11,7 +10,8 @@ const News = () => {
 			</div>
 
 			<div className='container mx-auto flex items-center justify-center'>
-				<CardNews />
+				post.map
+				
 			</div>
 
 		</div>
