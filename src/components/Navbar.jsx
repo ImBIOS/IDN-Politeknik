@@ -4,7 +4,7 @@ import menu from '../asset/Icons/menu.png'
 import { NavLink } from "react-router-dom";
 
 const navs = [
-    'About', 'Academic', 'Event', 'PMB', 'Contact Us'
+  'About', 'Academic', 'Event', 'PMB', 'Contact Us'
 ]
 
 const Navbar = () => {
@@ -59,6 +59,4 @@ const Navbar = () => {
             </div>
       )
   }
-
-
 export default Navbar;

@@ -2,11 +2,11 @@ import React from "react";
 import logoWhite from "../asset/Icons/logoWhite.png"
 
 const Footer = () => {
-	return (
-        <div className="mt-20 bg-neutral">
-            <footer className="footer items-center p-4 text-neutral-content container mx-auto lg:px-28">
+    return (
+        <div className="mt-40 bg-neutral">
+            <footer className="footer container mx-auto items-center p-20 text-neutral-content">
                 <div className="items-center sm:grid-flow-col hidden sm:contents">
-                    <img src={logoWhite} alt="" className="h-10"/>
+                    <img src={logoWhite} alt="" className="w-28" />
                     <p>Copyright © 2022 - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end flex justify-center">
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
             </footer>
         </div>
-	);
+    );
 }
 
 export default Footer;
