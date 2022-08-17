@@ -8,11 +8,14 @@ module.exports = {
     extend: {
     },
     fontFamily: {
-      'montserrat' : ['Montserrat', 'sans-serif'],
-      'oxygen' : ['Oxygen', 'sans-serif'],
-      'roboto' : ['Roboto', 'sans-serif']
+      'montserrat': ['Montserrat', 'sans-serif'],
+      'oxygen': ['Oxygen', 'sans-serif'],
+      'roboto': ['Roboto', 'sans-serif']
     },
   },
 
+  daisyui: {
+    themes: ["light"]
+  },
   plugins: [require("daisyui"),],
 }
