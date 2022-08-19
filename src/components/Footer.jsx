@@ -3,10 +3,10 @@ import logoWhite from "../asset/Icons/logoWhite.png"
 
 const Footer = () => {
     return (
-        <div className="mt-40 bg-neutral">
-            <footer className="footer container mx-auto items-center p-20 text-neutral-content">
+        <div className="bg-neutral">
+            <footer className="footer container mx-auto items-center p-5 px-10 sm:px-24 text-neutral-content">
                 <div className="items-center sm:grid-flow-col hidden sm:contents">
-                    <img src={logoWhite} alt="" className="w-28" />
+                    <img src={logoWhite} alt="" className="w-28 sm:w-20" />
                     <p>Copyright © 2022 - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end flex justify-center">

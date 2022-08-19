@@ -53,7 +53,7 @@ const Navbar = () => {
                             }
                         </div>
                     <div>
-                        <a className="btn btn-info rounded-full text-white px-10 normal-case hover:bg-blue-600">Login</a>
+                        <a className="btn btn-info rounded-full text-white px-10 normal-case hover:bg-blue-600" href='https://idn.ac.id/lms'>Login</a>
                     </div>
                 </div>
             </div>

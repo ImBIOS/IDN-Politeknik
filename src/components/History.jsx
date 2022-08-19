@@ -4,9 +4,9 @@ import icon from '../asset/Icons/shooping.png'
 function History() {
 	return (
 		<>
-			<div className='p-20 bg-sky-800 text-white'>
+			<div className='p-20 bg-slate-200 text-slate-700'>
 				<div className='mb-10 mt-5 lg:text-start text-center'>
-					<h1 className="lg:text-4xl sm:text-3xl text-xl font-semibold tracking-wides text-white">History IDN Campus</h1>
+					<h1 className="lg:text-4xl sm:text-3xl text-xl font-semibold tracking-wides text-slate-900">History IDN Campus</h1>
 					<div className="border-2 w-28 lg:mx-0 mx-auto rounded my-5"></div>
 				</div>
 				<div className='flex items-center lg:justify-start justify-center lg:flex-nowrap flex-wrap'>

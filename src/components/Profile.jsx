@@ -27,7 +27,7 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className="lg:ml-5 lg:w-1/2 ">
-                        <h5 className="mt-5 font-bold text-slate-800 text-center">Deddy Gunawan MT. CCIE,</h5>
+                        <h5 className="mt-5 font-bold text-slate-800 text-center lg:text-start ">Deddy Gunawan MT. CCIE,</h5>
                         <p className="py-5 text-slate-600">"Untuk menjadi terlatih tidak ada cara instant, caranya ya hanya harus
                             mau mengulang ulang terus menerus. Kalau nilai diri kita ingin menjadi
                             tinggi, ya harus melatih diri, minimal sampai terlatih. Bukan hanya sekedar

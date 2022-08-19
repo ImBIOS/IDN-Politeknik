@@ -5,7 +5,9 @@ import 'aos/dist/aos.css'
 
 function App() {
   
-  AOS.init();
+	AOS.init({
+    once: false
+  });
 
   return (
     <>
