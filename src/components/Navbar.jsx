@@ -34,7 +34,7 @@ const Navbar = () => {
                           {
                             navs.map((nav, index) => {
                               return (
-                                <NavLink key={index + 1} to={`/${nav}`} className="tab hover:text-blue-400 text-white active:tab-bordered text-lg"> {nav} </NavLink>
+                                <NavLink key={index + 1} to={`/${nav.toLowerCase()}`} className="tab hover:text-blue-400 text-white active:tab-bordered text-lg"> {nav} </NavLink>
                               )
                             })
                           }
@@ -47,7 +47,7 @@ const Navbar = () => {
                             {
                               navs.map((nav, index) => {
                                 return (
-                                  <NavLink key={index + 1} to={`/${nav}`} className="tab  text-blue-400 hover:text-blue-600 active:tab-bordered "> {nav} </NavLink>
+                                  <NavLink key={index + 1} to={`/${nav.toLowerCase()}`} className="tab  text-blue-400 hover:text-blue-600 active:tab-bordered "> {nav} </NavLink>
                                 )
                               })
                             }
