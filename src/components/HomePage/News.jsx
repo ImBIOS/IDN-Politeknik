@@ -14,7 +14,7 @@ const News = () => {
 
 	return (
 		<>
-			<h1 className='text-3xl text-center text-slate-900 my-10 border-2 border-slate-700 p-5 w-1/2 mx-auto rounded-xl hover:bg-sky-900 hover:text-white'>Coming soon feautures...</h1>
+			<h1 className='text-3xl text-center text-slate-900 dark:text-slate-100 my-10 border-2 border-slate-700 p-5 w-1/2 mx-auto rounded-xl hover:bg-sky-900 hover:dark:bg-sky-100 hover:text-white hover:dark:text-black'>Coming soon feautures...</h1>
 
 			<div className='flex content-center justify-center flex-wrap min-h-screen mb-40'>
 				{
