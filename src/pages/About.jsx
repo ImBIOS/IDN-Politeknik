@@ -7,11 +7,11 @@ import History from '../components/History'
 const AboutPage = () => {
     return (
         <>
-            <div>
-                <Navbar />
+            <Navbar />
+            <main>
                 <Profile />
                 <History />
-            </div>
+            </main>
             <Footer />
         </>
     )
