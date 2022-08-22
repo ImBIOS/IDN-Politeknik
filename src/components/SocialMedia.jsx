@@ -5,7 +5,7 @@ import { twitter, facebook, instagram, telephone, whatsapp } from './SocialMedia
 
 const SocialMedia = () => {
 	return (
-		<div className="container mx-auto text-slate-800 my-20 min-h-screen">
+		<article className="container mx-auto text-slate-800 my-20 min-h-screen">
 			<div className="flex flex-col-reverse sm:flex-row px-20 justify-around items-center">
 				<div>
 					<div>
@@ -40,7 +40,7 @@ const SocialMedia = () => {
 				</div>
 				<img src={logo} alt="" className='md:scale-75 lg:scale-100 w-[26rem]' />
 			</div>
-		</div>
+		</article>
 	)
 }
 

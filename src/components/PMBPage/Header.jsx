@@ -5,7 +5,7 @@ import rimg from '../../asset/img2.png'
 function HeaderPMB() {
 	return (
 		<>
-			<div class="hero min-h-screen ">
+			<article class="hero min-h-screen ">
 				<div class="hero-content text-center">
 					<div class="max-w-2xl">
 						<div className='flex justify-center items-start'>
@@ -17,7 +17,7 @@ function HeaderPMB() {
 						<button class="btn btn-info text-white" data-aos="fade-in">Daftar</button>
 					</div>
 				</div>
-			</div>
+			</article>
 		</>
 	)
 }

@@ -7,7 +7,9 @@ const EventPage = () => {
     return (
         <>
             <Navbar />
-            <ClassMeeting />
+            <main>
+                <ClassMeeting />
+            </main>
             <Footer />
         </>
     )

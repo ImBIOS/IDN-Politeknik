@@ -10,11 +10,13 @@ import Agenda from '../components/PMBPage/Agenda'
 function PMB() {
 	return (
 		<>
-			<Navbar />
-				<HeaderPMB />
-				<Prodi />
-				<Agenda />
-			<Footer />
+				<Navbar />
+				<main className='dark:text-white'>
+					<HeaderPMB />
+					<Prodi />
+					<Agenda />
+				</main>
+				<Footer />
 		</>
 	)
 }

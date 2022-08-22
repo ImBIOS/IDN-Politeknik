@@ -12,7 +12,7 @@ function Prodi() {
 
 	return (
 		<>
-			<div className='min-h-screen flex flex-col content-center justify-center'>
+			<article className='min-h-screen flex flex-col content-center justify-center'>
 				<h1 class="text-center text-2xl lg:text-4xl font-bold" data-aos="fade-in">Program Studi di Politeknik IDN</h1>
 				<div className="py-20 flex flex-wrap justify-center">
 					{
@@ -25,7 +25,7 @@ function Prodi() {
 						})
 					}
 				</div>
-			</div>
+			</article>
 		</>
 	)
 }

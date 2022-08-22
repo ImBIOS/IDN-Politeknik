@@ -7,7 +7,9 @@ const ContactPage = () => {
     return (
         <div>
             <Navbar />
-            <SocialMedia/>
+            <main>
+                <SocialMedia/>
+            </main>
             <Footer />
         </div>
     )

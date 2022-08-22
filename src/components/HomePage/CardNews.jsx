@@ -1,5 +1,5 @@
 import React from 'react'
-import { dummy_5, dummy_6 } from '../Imagesnpm'
+import { dummy_5, dummy_6 } from '../Images'
 
 const CardNews = (props) => {
     return (

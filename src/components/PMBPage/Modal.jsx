@@ -3,7 +3,7 @@ import React from 'react'
 function Modal(props) {
 	return (
 		<>
-			<div className='mx-10 relative'>
+			<article className='mx-10 relative'>
 				<label for={props.index} class="tracking-wider w-64 btn min-h-[200px] bg-gradient-to-r from-slate-100 to-slate-200 my-5 text-slate-800 border-none hover:text-white hover:bg-gradient-to-r hover:from-sky-500 hover:to-indigo-500">{props.title}
 				</label>
 
@@ -16,7 +16,7 @@ function Modal(props) {
 						<p class="py-4">{props.desc}</p>
 					</div>
 				</div>
-			</div>
+			</article>
 		</>
 	)
 }
