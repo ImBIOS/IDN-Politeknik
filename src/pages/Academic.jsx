@@ -7,7 +7,9 @@ const AcademicPage = () => {
     return (
         <>
             <Navbar />
-            <Organization />
+            <main>
+                <Organization />
+            </main>
             <Footer />
         </>
     )
