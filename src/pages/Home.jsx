@@ -4,16 +4,16 @@ import Hero from '../components/HomePage/Hero'
 import News from '../components/HomePage/News'
 import Footer from '../components/Footer'
 
-
-function Home() {
-	return (
-		<>
+const Home = () => {
+  return (
+    <>
       <Navbar />
-      <Hero />
-      <News />
+      <main>
+        <Hero />
+        <News />
+      </main>
       <Footer />
     </>
-	)
+  )
 }
-
 export default Home

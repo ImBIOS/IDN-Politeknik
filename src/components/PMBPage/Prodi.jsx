@@ -20,8 +20,8 @@ function Prodi() {
 					{
 						majors.map((major, index) => {
 							return (
-								<div key={index + 1} data-aos="fade-in">
-									<Modal title={major.title} image={major.img} desc="desc"  index={index}/>
+								<div data-aos="fade-in">
+									<Modal title={major.title} image={major.img} desc="desc" key={index + 1} />
 								</div>
 							)
 						})
