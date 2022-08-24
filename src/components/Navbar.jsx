@@ -53,6 +53,7 @@ const Navbar = () => {
               })
             }
           </div>
+          <button data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"></button>
           <div>
             <a className="btn btn-info rounded-full text-white px-10 normal-case hover:bg-blue-600" href='https://idn.ac.id/lms'>Login</a>
           </div>

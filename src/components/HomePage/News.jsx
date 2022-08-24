@@ -14,10 +14,8 @@ const News = () => {
 
 	return (
 		<article>
-
-			<h1 className='text-2xl text-center pt-10 font-bold text-white'>Blog posts</h1>
+			<h1 className="text-center font-semibold tracking-wides text-slate-800 dark:text-slate-200 lg:text-4xl sm:text-3xl text-xl">Blog Post</h1>
 			<div className='mx-auto border-2 border-slate-400 w-24 rounded mt-1 mb-5'></div>
-
 			<div className='flex content-center justify-center flex-wrap min-h-screen mb-40'>
 				{
 					posts.map((post, index) => {

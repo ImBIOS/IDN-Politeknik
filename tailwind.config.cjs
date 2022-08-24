@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'class',
 
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -13,10 +14,9 @@ module.exports = {
       'roboto': ['Roboto', 'sans-serif']
     },
   },
-  darkMode: 'class',
-
+ 
   daisyui: {
-    themes: ["light", "dark"]
+    themes: ["light"]
   },
   plugins: [require("daisyui"),],
 }
