@@ -17,7 +17,7 @@ const Profile = () => {
             </div>
 
             <div className="px-20 flex justify-center lg:my-20 items-center flex-col">
-                <h1 className="text-center font-semibold tracking-wides text-slate-800 dark:text-slate-300 lg:text-4xl sm:text-3xl text-xl">Director of education IDN</h1>
+                <h1 className="text-center font-semibold tracking-wides text-slate-800 dark:text-slate-200 lg:text-4xl sm:text-3xl text-xl">Director of education IDN</h1>
                 <div className="border-2 w-28 rounded my-2 bg-slate-800"></div>
 
                 <div className="flex flex-wrap items-center justify-center mt-10 lg:mt-0">
@@ -27,7 +27,7 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className="lg:ml-5 lg:w-1/2 ">
-                        <h5 className="mt-5 font-bold text-slate-800 text-center lg:text-start dark:text-slate-300">Deddy Gunawan MT. CCIE,</h5>
+                        <h5 className="mt-5 font-bold text-slate-800 dark:text-slate-200 text-center lg:text-start ">Deddy Gunawan MT. CCIE,</h5>
                         <p className="py-5 text-slate-600 dark:text-slate-400">"Untuk menjadi terlatih tidak ada cara instant, caranya ya hanya harus
                             mau mengulang ulang terus menerus. Kalau nilai diri kita ingin menjadi
                             tinggi, ya harus melatih diri, minimal sampai terlatih. Bukan hanya sekedar

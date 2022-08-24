@@ -9,7 +9,7 @@ const Organization = () => {
     return (
         <article className="container mx-auto text-slate-800 dark:text-slate-300 mt-20">
             <h1 className='text-center font-bold text-4xl'>Organization</h1>
-            <div className="border-2 w-16 mx-auto bg-slate-900 rounded my-2"></div>
+            <div className="border-2 w-16 mx-auto bg-slate-900 dark:bg-slate-100 rounded my-2"></div>
 
             <div className="py-20 flex flex-wrap justify-center">
                 <Card image={logo1} className="w-1/2" title={"komunitas IDN peduli"} desc={"Cooking, cookery, or culinary arts is the art, science and craft of using heat to prepare food for consumption. Cooking techniques and ingredients vary widely, from grilling food over an open fire to using electric stoves, to baking in various types of ovens, reflecting local conditions."} />
