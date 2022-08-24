@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   window.addEventListener('scroll', changeBackground)
-
+  
   return (
     <header>
       <nav className={navbar ? 'navbar active lg:px-24' : 'navbar '}>

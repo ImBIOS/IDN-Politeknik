@@ -25,11 +25,13 @@ function History() {
 							</p>
 						</li>
 
-						<li>
-							<p className='py-1'>Tim Pengajar Inggris Native Speaker dari Amerika dan juga guru-guru dari Kampung Inggris Pare Kediri <br /> Serta tim pengajar/guru/asatdiz lainnya
-							</p>
-						</li>
-					</ul>
+							<li>
+								<p className='py-1'>Tim Pengajar Inggris Native Speaker dari Amerika dan juga guru-guru dari Kampung Inggris Pare Kediri <br /> Serta tim pengajar/guru/asatdiz lainnya
+								</p>
+							</li>
+						</ul>
+					</div>
+					<img src={icon} alt="Icon" className="lg:w-full w-64 lg:order-2 order-1 dark:bg-slate-200 dark:rounded-lg dark:ml-2" />
 				</div>
 				<img src={icon} alt="Icon" className="lg:w-full w-64 lg:order-2 order-1" />
 			</div>

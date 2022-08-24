@@ -19,9 +19,9 @@ root.render(
     <Route path="/" element={<App />} />
     <Route path="about" element={<About />} />
     <Route path="academic" element={<Academic />} />
-    <Route path="PMB" element={<PMB />} />
+    <Route path="pmb" element={<PMB />} />
     <Route path="event" element={<Event />} />
-    <Route path="Contact%20Us" element={<Contact />} />
+    <Route path="contact%20us" element={<Contact />} />
   </Routes>
 </BrowserRouter>
 )
