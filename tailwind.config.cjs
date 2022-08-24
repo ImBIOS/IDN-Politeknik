@@ -13,6 +13,7 @@ module.exports = {
       'roboto': ['Roboto', 'sans-serif']
     },
   },
+  darkMode: 'class',
 
   daisyui: {
     themes: ["light", "dark"]

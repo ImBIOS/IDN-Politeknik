@@ -4,9 +4,9 @@ import { dummy_1, dummy_2, dummy_3 } from './Images';
 
 const Profile = () => {
     return (
-        <div className="container mx-auto px-8 py-10">
-            <h1 className="text-center text-4xl font-bold tracking-widest text-slate-800 dark:text-slate-200">Profile</h1>
-            <div className="border-2 w-16 mx-auto rounded my-2 bg-slate-900"></div>
+        <article className="container mx-auto px-8 py-10">
+            <h1 className="text-center text-4xl font-bold tracking-widest text-slate-800 dark:text-slate-300">Profile</h1>
+            <div className="border-2 w-16 mx-auto rounded my-2 bg-slate-900 dark:bg-slate-400"></div>
 
             <div className="Image">
                 <div className="grid justify-center grid-rows-3 grid-flow-col gap-x-8 gap-y-4 mt-5">
@@ -37,7 +37,7 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     )
 }
 

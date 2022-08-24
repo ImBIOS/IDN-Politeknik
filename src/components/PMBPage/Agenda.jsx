@@ -4,8 +4,8 @@ import Collaps from './Collaps'
 function Agenda() {
 
 	const drops = [
-		{ title : "Persyaratan Berkas", desc : "ini description", },
-		{ title : "Ujian", desc : "ini description kedua", },
+		{ title: "Persyaratan Berkas", desc: "ini description", },
+		{ title: "Ujian", desc: "ini description kedua", },
 	]
 
 	return (
@@ -19,9 +19,9 @@ function Agenda() {
 					{
 						drops.map((drop, index) => {
 							return (
-								<Collaps title={drop.title} index={index} desc={drop.desc}/>
+								<Collaps title={drop.title} key={index + 1} desc={drop.desc} />
 							)
-					})}
+						})}
 				</div>
 			</div>
 		</>

@@ -5,9 +5,9 @@ import Modal from './Modal'
 function Prodi() {
 
 	const majors = [
-		{ title : "Teknik Jaringan Komputer", desc : "ini description", img : {dmm}},
-		{ title : "Rekayasa Perangkat Lunak", desc : "ini description kedua", img : {rpl}},
-		{ title : "Design Multimedia", desc : "ini description ketiga", img : {tkj}},
+		{ title: "Teknik Jaringan Komputer", desc: "ini description", img: { dmm } },
+		{ title: "Rekayasa Perangkat Lunak", desc: "ini description kedua", img: { rpl } },
+		{ title: "Design Multimedia", desc: "ini description ketiga", img: { tkj } },
 	]
 
 	return (
@@ -19,7 +19,7 @@ function Prodi() {
 						majors.map((major, index) => {
 							return (
 								<div data-aos="fade-in" className=''>
-									<Modal title={major.title} image={major.img} desc="desc" index={index}/>
+									<Modal title={major.title} image={major.img} desc="desc" key={index + 1} />
 								</div>
 							)
 						})
